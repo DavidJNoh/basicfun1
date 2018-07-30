@@ -36,3 +36,51 @@
 #             print (x)
 
 # mult(2,9,3)
+
+# def countd(x):
+#     y=[]
+#     for x in range(x,0,-1):
+#         y.append(x)
+#     print (y)
+
+# countd(5)
+
+# def pfrs(arr):
+#     print(arr[0])
+#     return(arr[1])
+
+# arr=[1,2]
+
+# print (pfrs(arr))
+
+# def firstpluslength():
+#     y=[1,2,3]
+#     x= y[0]+len(y)
+#     return x
+
+# print(firstpluslength())
+
+# def weird(dank):
+#     if len(dank)<2:
+#         return False
+#     else:
+#         memes=dank[1]
+#         total=0
+#         coffee=[]
+#         for x in dank:
+#             if x > memes:
+#                 total+=1
+#                 coffee.append(x)
+#     print(total)
+#     return coffee
+
+# dank=[4,5,3,8,9,6,6]
+# print(weird(dank))
+
+# def lengthAndValue(length,value):
+#     this=[]
+#     for length in range(0,length):
+#         this.append(value)
+#     return this
+
+# print(lengthAndValue(4,7))
